@@ -1,0 +1,229 @@
+body{
+
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+header{background: #F7F8FA;padding: 20px 0;}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{width: 20%;float: left;}
+.logo img{}
+nav{
+    width: 80%;
+    float: left;
+    padding-top:  9px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{list-style: none;display: inline-block;}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2D3950;
+    padding-left: 20px;
+}
+.banner{background: url(../images/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;}
+.banner-content{
+    text-align: center;
+    padding: 9em 0;
+}
+.banner-content h1{
+    margin: 0;
+    color: white;
+    font-size: 5em;
+}
+.banner-content hr{
+    max-width: 27EM;
+    border: 1px solid #339dc7;
+}
+.banner-content p{
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+.banner-content a{
+    text-decoration: none;
+    border: 1px solid #0daff1;
+    border-radius: 3px;
+    padding: 10px 25px;
+    color: white;
+    display: inline-block;
+}
+.arrow{text-align: center;margin-bottom: 4em;}
+.arrow a{color: white;font-size: 25px;}
+.main-content{
+    text-align: center;
+    background: #f1f1f1;
+}
+.main-content-part{
+    padding: 50px 0;
+}
+.main-content-part h1{}
+.main-content-part p{
+    margin: 0;
+    padding: 10px 0 30px 0;
+    color: #6d6c6c;
+}
+.logo-content{}
+.type{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 55px 30px;
+}
+.type img{
+    margin: 0 auto;
+}
+.type h1{
+    margin: 0;
+    padding: 25px 0;
+    font-size: 25px;
+}
+.type p{
+    margin: 0;
+    color: #7d7d7d;
+}
+.work-content{
+    background: #ececec;
+    padding: 4em 0;
+}
+.work-content-part{
+    text-align: center;
+}
+.work-content-part h1{
+    margin: 0;
+    padding: 15px;
+}
+.work-content-part p{
+    margin: 0;
+    color: #737272;
+    padding-bottom: 4em;
+}
+.Image-part{}
+.Image{
+    width: 33.33%;
+    float: left;
+    padding: 11px;
+}
+.Image img{}
+.form-part{
+    background: url(../images/contact-bg.png);
+    padding: 4em 0;
+}
+.form-header{
+    text-align: center;
+}
+.form-header h1{
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.form-header p{
+    margin: 0;
+    color: #afafaf;
+    padding-bottom: 60px;
+}
+form{
+    text-align: center;
+}
+form input[type="text"]{
+    width: 50%;
+    padding: 10px 10px;
+    background: transparent;
+    border: 1px solid #989898;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+form input[type="email"]{width: 50%;
+	padding: 10px 10px;
+	background: transparent;
+	border: 1px solid #989898;
+	border-radius: 2px;margin-bottom: 15px;}
+textarea{width: 50%;
+	padding: 10px 10px;
+	background: transparent;
+	border: 1px solid #989898;
+	border-radius: 2px;
+	margin-bottom: 15px;}
+form ul{
+    margin: 0;
+    padding: 0;
+}
+form ul li{
+    list-style: none;
+    display: inline-block;
+}
+.checkbox{
+    width: 50%;
+    float: left;
+    padding-left: 200px;
+    color: white;
+}
+.send{
+    width: 50%;
+    float: left;
+    padding-right: 120px;
+}
+form ul li input[type="checkbox"]{}
+form ul li input[type="submit"]{padding: 8px 40px;
+	border: 1px solid #208bb7;
+	background: transparent;
+	color: white;
+	border-radius: 3px;}
+footer{
+    background: #f1f1f1;
+    padding: 5px 0;
+}
+.Copyright{
+    width: 50%;
+    float: left;
+}
+.Copyright p{
+    color: #9e9e9e;
+}
+.social-icons{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.social-icons ul{
+    margin: 0;
+    padding: 0;
+}
+.social-icons ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 0px;
+}
+.social-icons ul li a{
+    display: block;
+    border: 1px solid #1ea9e2;
+    color: white;
+    background: #1ea9e2;
+    padding: 5px 12px;
+}
